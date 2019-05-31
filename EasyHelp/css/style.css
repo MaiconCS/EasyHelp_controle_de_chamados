@@ -1,0 +1,406 @@
+
+p #Sector{
+background-color: yellow;
+color: red;
+
+}
+
+
+div#topo{
+
+    top: 10px;
+}
+div#login{
+
+    background:#cfd5d7;
+    margin-top: 10px;
+    width: 400px;
+    height: 500px;
+    margin: 0 auto;
+    opacity: 0.45;
+
+}
+
+div#formlogin{
+    position: fixed;
+    top: 50px;
+    left: 50px;
+}
+
+div#logo{
+
+
+    position: fixed;
+    top: 120px;
+    left: 486px;
+}
+
+
+
+div#botao{
+    position: fixed;
+    top: 440px;
+    left: 590px;
+    cursor: pointer;
+}
+
+
+
+div#topo2{
+
+    background:#d5d5d5;
+    width: 1265px;
+    height: 150px;
+
+    display: block;
+    opacity: 50;
+
+}
+
+div#logo2{
+
+  width: 1110px;
+  height: 295px;
+  margin: 0 auto;
+  margin-top: -100px;
+  display: block;
+  opacity: 0.76 ;
+
+}
+
+div#logopg1{
+
+    width: 360px;
+    height: 180px;
+    margin-top: 40px;
+    float: left;
+
+
+}
+
+div#bsair{
+
+
+    width: 115px;
+    height: 60px;
+    margin-top: 50px;
+    float: right;
+}
+
+div#rodape{
+
+    width: 940px;
+    height: 290px;
+    margin: 0 auto;
+    margin-top: 350px;
+}
+
+
+}
+
+div#miolo{
+
+    background: #066794;
+    width: 100px;
+    height: 25px;
+    display: block;
+
+
+
+}
+
+div#bchamado{
+    position: absolute;
+   top: 290px;
+   left: 830px;
+
+}
+
+div#bgchamado{
+   position: absolute;
+   top: 490px;
+   left: 830px;
+}
+
+div#busuario{
+   position: absolute;
+   top: 390px;
+   left: 830px;
+}
+div#bchamado2{
+  position: absolute;
+  top: 190px;
+  left: 830px;
+}
+
+div#buser{
+   position: absolute;
+   top: 590px;
+   left: 830px;
+}
+div#linhas{
+  position: absolute;
+  top: 500px;
+  left: 360;
+  opacity: 0.35;
+}
+div#logouser{
+  position: absolute;
+  top: 260px;
+  left: 26px;
+
+}
+div#centro{
+  position: absolute;
+  top: 800px;
+  left: 360;
+
+}
+
+div#rodape2{
+    position: relative;
+    top: 200px;
+    margin: 0 auto;
+
+}
+
+div#conteudoform{
+
+    position: relative;
+    background: #fbf9f9;
+    width: 100px;
+    top: 90px;
+    left: 80px;
+
+}
+
+
+
+fieldset{
+
+    background-color: #EEE;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F9F9F9), to(#EEE));
+    border: 1px solid #FFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #DDD;
+    width: 260px;
+    margin: auto;
+}
+
+label{
+
+    display: block;
+    padding: 5px;
+
+}
+
+label span {
+
+    display:block;
+    font-family: Arial;
+    font-size: 14px;
+    padding: 3px;
+    color: #999;
+
+}
+
+label input {
+
+    border: 1px solid #DDD;
+    borde-radius: 5px;
+    font-size: 18px;
+    padding: 5px;
+}
+
+
+label button{
+    background-color: #77AACC;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    color: #FFF;
+    padding: 5px 16px;
+    box-shadow: 0px 0px 10px #DDD;
+
+}
+
+div#teste
+{
+    padding: 200px;
+}
+
+
+#area
+  {
+    position:relative;
+    left:37%;
+    top:29%;
+    width:320px;
+    height:270px;
+  }
+  #area #formulario
+  {
+    position:absolute;
+    display:block;
+  }
+  fieldset
+  {
+    width:300px;
+    height:250px;
+  }
+
+
+
+
+#area2
+  {
+    background:#169bd5;
+    position:relative;
+    left:57%;
+    top:29%;
+    width:320px;
+    height:270px;
+  }
+
+
+
+
+
+* {
+   box-sizing:border-box;
+   -webkit-box-sizing:border-box;
+   -moz-box-sizing:border-box;
+   -webkit-font-smoothing:antialiased;
+   -moz-font-smoothing:antialiased;
+   -o-font-smoothing:antialiased;
+   font-smoothing:antialiased;
+   text-rendering:optimizeLegibility;
+}
+body {
+   color: #e9e9e9;
+   font-family: Arial, san-serif;
+}
+
+
+h1 {
+   margin: 10px 0 0 0;
+}
+h4{
+   margin: 0 0 20px 0;
+}
+#contact-form {
+   background-color:rgba(72,72,72,0.3);
+   padding: 10px 20px 30px 20px;
+   max-width:100%;
+   float: left;
+   left: 50%;
+   position: absolute;
+   margin-top:40px;
+   margin-left: -160px;
+   border-radius:7px;
+   -webkit-border-radius:7px;
+   -moz-border-radius:7px;
+}
+#contact-form input,
+#contact-form select,
+#contact-form textarea,
+#contact-form label {
+   font-size: 15px;
+   margin-bottom: 2px;
+   font-family: Arial, san-serif;
+}
+#contact-form input,
+#contact-form select,
+#contact-form textarea {
+   width:100%;
+   background: #fff;
+   border: 0;
+   -moz-border-radius: 4px;
+   -webkit-border-radius: 4px;
+   border-radius: 4px;
+   margin-bottom: 25px;
+   padding: 5px;
+}
+#contact-form input:focus,
+#contact-form select:focus,
+#contact-form textarea:focus {
+   background-color: #E5E6E7;
+}
+#contact-form textarea {
+   width:100%;
+   height: 150px;
+}
+#contact-form button[type="submit"] {
+   cursor:pointer;
+   width:100%;
+   border:none;
+   background:#0693d2;
+   background-image:linear-gradient(bottom, #8C1C50 0%, #991D57 52%);
+   background-image:-moz-linear-gradient(bottom, #0693d2 0%, #0693d2 52%);
+   background-image:-webkit-linear-gradient(bottom, #0693d2 0%, #0693d252%);
+   color:#FFF;
+   margin:0 0 5px;
+   padding:10px;
+   border-radius:5px;
+}
+#contact-form button[type="submit"]:hover {
+   background-image:linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+   background-image:-moz-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+   background-image:-webkit-linear-gradient(bottom, #9C215A 0%, #A82767 52%);
+   -webkit-transition:background 0.3s ease-in-out;
+   -moz-transition:background 0.3s ease-in-out;
+   transition:background-color 0.3s ease-in-out;
+}
+#contact-form button[type="submit"]:active {
+   box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
+}
+input:required, textarea:required {
+   box-shadow: none;
+   -moz-box-shadow: none;
+   -webkit-box-shadow: none;
+   -o-box-shadow: none;
+}
+#contact-form .required {
+   font-weight:bold;
+   color: #E5E6E7;
+}
+
+
+#failure, #success {
+   color: #6EA070;
+   display:none;
+}
+
+
+@media only screen and (max-width: 580px) {
+   #contact-form{
+      left: 3%;
+      margin-right: 3%;
+      width: 88%;
+      margin-left: 0;
+      padding-left: 3%;
+      padding-right: 3%;
+   }
+}
+
+#enviada {
+    position: fixed;
+    top: 130px;
+    left: 420px;
+}
+
+#enviada2{
+
+   position: relative;
+    top: 25px;
+    left: 170px;
+    font-family: Arial;
+    font-size: 14px;
+    color: #999;
+}
+
+    #bvoltar{
+
+    position: fixed;
+    top: 490px;
+    left: 870px;
+}
